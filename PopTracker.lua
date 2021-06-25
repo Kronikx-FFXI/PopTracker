@@ -27,7 +27,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ]]
 
 _addon.name = 'Pop Tracker'
-_addon.author = 'Original Author: Xurion of Bismarck' and 'Updated by: Kronikx of Asura'
+_addon.author = 'Original Author: Xurion of Bismarck | Edited/Updated/Tweaked by: Kronikx of Asura'
 _addon.commands = { 'nm', 'nmtracker' }
 _addon.version = '2.5.0'
 
