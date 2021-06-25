@@ -73,40 +73,4 @@
         <tracking>briareus</tracking>
         <visible>true</visible>
     </global>
-    <ambulanc>
-        <text>
-            <bg>
-                <green>75</green>
-            </bg>
-            <pos>
-                <x>526</x>
-                <y>54</y>
-            </pos>
-        </text>
-        <tracking>warder of courage</tracking>
-        <visible>false</visible>
-    </ambulanc>
-    <kronikx>
-        <text>
-            <pos>
-                <x>1098</x>
-                <y>72</y>
-            </pos>
-        </text>
-        <tracking>kukulkan</tracking>
-        <visible>false</visible>
-    </kronikx>
-    <kryiel>
-        <text>
-            <bg>
-                <green>75</green>
-            </bg>
-            <pos>
-                <x>1380</x>
-                <y>180</y>
-            </pos>
-        </text>
-        <tracking>warder of courage</tracking>
-        <visible>false</visible>
-    </kryiel>
 </settings>
