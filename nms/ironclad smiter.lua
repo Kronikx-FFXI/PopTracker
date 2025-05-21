@@ -27,33 +27,23 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ]]
 
 return {
-    name = 'Apademak',
-    collectable = 3289, --Apademak Horn
-    collectable_target_count = 75,
+    name = 'Ironclad Smiter',
+    collectable = 3293, --Iron Plate
+    collectable_target_count = 50,
     pops = { {
-        id = 1525, --Torn Khimaira Wing
-        type = 'key item',
+        id = 3230, --Tablilla Mercury
+        type = 'item',
         dropped_from = {
-            name = 'Dhorme Khimaira, Forced (F-7)',
+            name = 'Tablilla, Forced (C-11)',
             pops = { {
-                id = 3246, --Snow God Core
+                id = 3235, --Sandy Shard
                 type = 'item',
-                dropped_from = {
-                    name = 'Upas-Kamuy, Forced (G-5)',
-                    pops = { {
-                        id = 3252, --Gelid Arm
-                        dropped_from = { name = 'Snowflake (G-5)' }
-                    } }
-                }
-            }, {
-                id = 3247, --Sisyphus Fragment
-                type = 'item',
-                dropped_from = { name = 'Sisyphus, Timed 10-15m (F-6/G-6)' }
-            }, {
-                id = 3253, --High-quality marid hide
-                type = 'item',
-                dropped_from = { name = 'Olyphant (F-6)' }
+                dropped_from = { name = 'Sand Sweeper, (D-10)' }
             } }
         }
+    }, {
+        id = 3236, --Smoldering Arm
+        type = 'item',
+        dropped_from = { name = 'Bonfire, (D-11/E-11)' }
     } }
 }

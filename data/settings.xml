@@ -70,7 +70,16 @@
                 </stroke>
             </text>
         </text>
-        <tracking>briareus</tracking>
+        <tracking>chloris</tracking>
         <visible>true</visible>
     </global>
+    <voight>
+        <text>
+            <pos>
+                <x>1098</x>
+                <y>82</y>
+            </pos>
+        </text>
+        <tracking>orthrus</tracking>
+    </voight>
 </settings>

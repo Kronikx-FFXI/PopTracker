@@ -36,7 +36,7 @@ return {
             pops = { {
                 id = 3358, --Shrouded Bijou
                 type = 'item',
-                dropped_from = { name = 'Demon lottery Spawn NMs' }
+                dropped_from = { name = 'Various Demon lottery NMs' }
             } }
         }
     }, {

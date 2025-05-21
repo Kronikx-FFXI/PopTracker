@@ -27,32 +27,25 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ]]
 
 return {
-    name = 'Apademak',
-    collectable = 3289, --Apademak Horn
+    name = 'Ogopogo',
+    collectable = 3294, --Colorless Soul
     collectable_target_count = 75,
     pops = { {
-        id = 1525, --Torn Khimaira Wing
+        id = 1653, --Vermillion demilune abyssite
         type = 'key item',
         dropped_from = {
-            name = 'Dhorme Khimaira, Forced (F-7)',
+            name = 'Chione (Conflux #7)',
             pops = { {
-                id = 3246, --Snow God Core
-                type = 'item',
+                id = 1565, --Colorful demilune abyssite
+                type = 'key item',
                 dropped_from = {
-                    name = 'Upas-Kamuy, Forced (G-5)',
+                    name = 'Ice/Water Elemental',
                     pops = { {
-                        id = 3252, --Gelid Arm
-                        dropped_from = { name = 'Snowflake (G-5)' }
+                        id = 1564, --Clear demilune abyssite
+                        type = 'key item',
+                        dropped_from = { name = 'Any Cruor Prospector' }
                     } }
                 }
-            }, {
-                id = 3247, --Sisyphus Fragment
-                type = 'item',
-                dropped_from = { name = 'Sisyphus, Timed 10-15m (F-6/G-6)' }
-            }, {
-                id = 3253, --High-quality marid hide
-                type = 'item',
-                dropped_from = { name = 'Olyphant (F-6)' }
             } }
         }
     } }
