@@ -6,7 +6,11 @@ return {
 		dropped_from = {
 		    name = 'Ironclad Smiter (D-12)',
 			pops = { {
-			    id = 3230, --Tablilla Mercury
+				id = 3236, --Smoldering Arm
+				type = 'item',
+				dropped_from = { name = 'Bonfire (D-11/E-11)' }
+			}, {
+				id = 3230, --Tablilla Mercury
 				type = 'item',
 				dropped_from = {
 				    name = 'Tablilla (C-11)',
@@ -14,10 +18,6 @@ return {
 					    id = 3235, --Sandy Shard
 						type = 'item',
 						dropped_from = { name = 'Sand Sweeper (D-10)' }
-					}, {
-				        id = 3236, --Smoldering Arm
-				        type = 'item',
-				        dropped_from = { name = 'Bonfire (D-11/E-11)' }
 					} }
 				}
 			} }

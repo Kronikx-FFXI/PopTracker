@@ -6,7 +6,11 @@ return {
 		dropped_from = {
 		    name = 'Ironclad Sunderer (J-6)',
 			pops = { {
-			    id = 3260, --Teekesselchen Fragment
+				id = 3266, --Darkflame Arm
+				type = 'item',
+				dropped_from = { name = 'Stygian Djinn, (K-7)' }
+			}, {
+				id = 3260, --Teekesselchen Fragment
 				type = 'item',
 				dropped_from = {
 				    name = 'Teekesselchen (I-5)',
@@ -14,10 +18,6 @@ return {
 					    id = 3265, --Flask of Bubbling Oil
 						type = 'item',
 						dropped_from = { name = 'Sinister Seidel, (J-5)' }
-					}, {
-				        id = 3236, --Darkflame Arm
-				        type = 'item',
-				        dropped_from = { name = 'Stygian Djinn, (K-7)' }
 					} }
 				}
 			} }
