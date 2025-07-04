@@ -6,7 +6,7 @@ return {
 		dropped_from = {
 		    name = 'Ironclad Sunderer (J-6)',
 			pops = { {
-				id = 3266, --Darkflame Arm
+				id = 3266, --Darkflame Arm.
 				type = 'item',
 				dropped_from = { name = 'Stygian Djinn, (K-7)' }
 			}, {
